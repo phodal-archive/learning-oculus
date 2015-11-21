@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "node-glfw": "^0.4.0"
+    "node-glfw": "^0.4.0",
+    "node-hmd": "^0.2.1"
   },
   "devDependencies": {},
   "scripts": {
