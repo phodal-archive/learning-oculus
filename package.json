@@ -4,8 +4,10 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "express": "^4.13.3",
     "node-glfw": "^0.4.0",
-    "node-hmd": "^0.2.1"
+    "node-hmd": "^0.2.1",
+    "optimist": "^0.6.1"
   },
   "devDependencies": {},
   "scripts": {
