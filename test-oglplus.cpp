@@ -1,18 +1,3 @@
-# learning-oculus
-
-brew install anttweakbar freeimage
-
-
-export CC=/usr/local/Cellar/gcc5/5.2.0/bin/gcc-5
-export CXX=/usr/local/Cellar/gcc5/5.2.0/bin/g++-5
-
-
-export CXXFLAGS=-stdlib=libc++
-export CXXFLAGS=-stdlib=libstdc++
-
-export CC=/usr/bin/clang
-export CXX=/usr/bin/clang++
-
 #include <OpenGL/gl3.h>
 #include <GLUT/glut.h>
 #include <stdio.h>
@@ -31,5 +16,3 @@ int main(int argc, char* argv[]){
 
     return 0;
 }
-
-cc -framework GLUT -framework OpenGL -framework Cocoa test-oglplus.cpp -o test
