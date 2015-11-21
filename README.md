@@ -7,6 +7,11 @@ export CC=/usr/local/Cellar/gcc5/5.2.0/bin/gcc-5
 export CXX=/usr/local/Cellar/gcc5/5.2.0/bin/g++-5
 
 
+alias gcc='gcc-5'
+alias cc='gcc-5'
+alias g++='g++-5'
+alias c++='c++-5'
+
 export CXXFLAGS=-stdlib=libc++
 export CXXFLAGS=-stdlib=libstdc++
 
