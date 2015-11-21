@@ -33,3 +33,5 @@ int main(int argc, char* argv[]){
 }
 
 cc -framework GLUT -framework OpenGL -framework Cocoa test-oglplus.cpp -o test
+
+export PATH=/Library/Frameworks/GTK+.framework/Resources/bin:$PATH
